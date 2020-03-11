@@ -4,7 +4,13 @@ const cors = require('cors')
 const fetch = require('node-fetch')
 
 const corsOptions = {
-  origin: 'http://portfolio.noindex.co:8000',
+  origin: [
+      'http://localhost:9000',
+      'http://portfolio.noindex.co:9000',
+      'http://portfolio.noindex.co:8000', 
+      'http://portfolio.noindex.co',
+      'https://portfolio.noindex.co'
+    ],
   optionSuccessStatus: 200
 }
 
