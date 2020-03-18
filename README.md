@@ -3,7 +3,7 @@ This is mostly an API reflector for my demo app within my portfolio site.
 This was created with the Express starter so it contains some default stuff.
 Also, I set this up for a demo to only point to Seattle.  Could have accepted a zip code or lat/long, but its just a demo.
 
-# I try this thing
+# I want to try this thing
 First, make sure that you make your own `.env` file.
 Copy the `env.example` file to `.env` and fill it out correctly with API keys from these two places:
 - For weather: https://openweathermap.org/api
